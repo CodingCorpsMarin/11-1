@@ -1,0 +1,15 @@
+
+Competencies
+
+Rails uses generators to do a lot of work, including generating models
+The Rails model generator allows you to create model files with different attributes, can always also add more manually
+Rails model generator will create a model file AND a migration file
+Everything inside the model file will define the user (specific methods, for example)
+Migrations hold the information for the attributes of the model
+Later, migrations will hold the information for changes to that model’s base table
+
+Applications
+Understand how active record interacts with Rails
+Implement databases in Rails
+
+
