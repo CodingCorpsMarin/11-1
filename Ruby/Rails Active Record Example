@@ -1,0 +1,36 @@
+Create a new Rails App
+>rails new app
+
+Create the db
+>rails db:create
+
+Create a model for users
+>rails generate model User name:string bio:text age:integer
+
+Check out model, check out migration
+
+Migrate db
+> rails db:migrate
+
+Play with our db in the console
+>rails c(onsole)
+
+Create an instance of User
+>bob = User.new(name: 'Bob', age: 20)
+
+Can fill in bio later
+>bob.bio = 'Bob likes turtles'
+
+Save 
+>bob.save
+
+Exit console
+Go into model page and give User instances a method, for example, they can say how old they are
+
+  def how_old
+    'I'm ' + self.age.to_s + ' years old!'
+  end
+
+Go into console again and call that method
+>bob.how_old
+
