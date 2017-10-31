@@ -1,0 +1,21 @@
+
+Competencies
+
+All Rails apps have a set structure to follow, this makes it easy for developers to build apps quickly and work in groups efficiently
+“Rails new [app]” creates all the files in a default rails app
+App folder holds MVC components
+Assets folder holds stylesheets and js for frontend functionality
+Bin folder holds executables for rake, rails, bundle commands
+Config -> Environments holds info on how each environment is set
+Database.yml is where you will configure different databases if need be
+Routes is where you will handle routing
+DB is where you will handle migrations, do not touch schema.rb
+Lib folder holds reusable code that aren’t rake tasks that you might want to use
+Log folder holds dev logs so you can keep track of what you’ve done/debugging
+Public folder is where your error pages go
+Test folder holds tests (rspec, anyone?)
+Tmp holds temp files such as cached data and sessions
+Vendor folder holds assets for third party gems, probably won’t need to touch this at all
+
+Applications
+Understand the file structure of a Rails app so you know how and what to tweak things when needed
